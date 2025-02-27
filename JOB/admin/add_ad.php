@@ -3,7 +3,6 @@ include '../includes/config.php';
 include '../includes/header.php';
 include '../includes/restrictions.php';
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $description = $_POST['description'];
