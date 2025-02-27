@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSRP Form 1 - Jobseeker Registration</title>
+    <link rel="stylesheet" href="Stlye.css">
+    
+</head>
+<body>
+    <div class="form-container">
+        <h2>Republic of the Philippines - Jobseeker Registration Form</h2>
+
+        <div class="section">
+            <h3>I. Personal Information</h3>
+            <div class="input-group">
+                <label>Surname:</label>
+                <input type="text" name="surname">
+            </div>
+            <div class="input-group">
+                <label>First Name:</label>
+                <input type="text" name="firstname">
+            </div>
+            <div class="input-group">
+                <label>Middle Name:</label>
+                <input type="text" name="middlename">
+            </div>
+            <div class="input-group">
+                <label>Suffix (Sr., Jr., III, etc.):</label>
+                <input type="text" name="suffix">
+            </div>
+            <div class="input-group">
+                <label>Date of Birth:</label>
+                <input type="date" name="dob">
+            </div>
+            <div class="input-group">
+                <label>Sex:</label>
+                <input type="radio" name="sex" value="Male"> Male
+                <input type="radio" name="sex" value="Female"> Female
+            </div>
+            <div class="input-group">
+                <label>Religion:</label>
+                <input type="text" name="religion">
+            </div>
+            <div class="input-group">
+                <label>Civil Status:</label>
+                <input type="radio" name="status" value="Single"> Single
+                <input type="radio" name="status" value="Married"> Married
+                <input type="radio" name="status" value="Widowed"> Widowed
+            </div>
+            <div class="input-group">
+                <label>Present Address:</label>
+                <input type="text" name="address" placeholder="House No./Street/Village">
+                <input type="text" name="barangay" placeholder="Barangay">
+                <input type="text" name="city" placeholder="Municipality/City">
+                <input type="text" name="province" placeholder="Province">
+            </div>
+            <div class="input-group">
+                <label>Height (ft):</label>
+                <input type="text" name="height">
+            </div>
+            <div class="input-group">
+                <label>Contact Number:</label>
+                <input type="text" name="contact">
+            </div>
+            <div class="input-group">
+                <label>Email:</label>
+                <input type="email" name="email">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 style="text-decoration:underline;">Employment Status / Type</h3>
+            <div class="input-group">
+                <label>Employment Status:</label>
+                <input type="checkbox" name="employment" value="Employed"><b> Employed</b><br>
+                <input type="checkbox" name="employment" value="Wage Employed"> Wage Employed<br>
+                <input type="checkbox" name="employment" value="Self-employed"> Self-employed 
+                <input type="text" name="employment"  placeholder="Please specify" >
+                <br>
+                <input type="checkbox" name="employment" value="Fisherman/Fisherfolk"> Fisherman/Fisherfolk <br>
+                <input type="checkbox" name="employment" value="Vendor/Retailer"> Vendor/Retailer <br>
+                <input type="checkbox" name="employment" value="Home-based worker"> Home-based worker <br>
+                <input type="checkbox" name="employment" value="Transport"> Transport <br>
+                <input type="checkbox" name="employment" value="Domestic Worker"> Domestic Worker <br>
+                <input type="checkbox" name="employment" value="Freelancer"> Freelancer <br>
+                <input type="checkbox" name="employment" value="Artisan/Craft Worker"> Artisan/Craft Worker <br>
+                <input type="checkbox" name="employment" value="Other"> Other
+                <input type="text" name="employment"  placeholder="Please specify" >
+            </div>
+            <div class="input-group">
+                <input type="checkbox" name="employment" value="Unemployed"> <b>Unemployed</b>
+                <input type="text" name="employment" placeholder="how long have oyu been looking for work? (months)"> <br>
+                <input type="checkbox" name="employment" value="new Entrant/Fresh Graduate"> new Entrant/Fresh Graduate <br>
+                <input type="checkbox" name="employment" value="Finished Contract"> Finished Contract <br>
+                <input type="checkbox" name="employment" value="Resigned"> Resigned <br>
+                <input type="checkbox" name="employment" value="Retired"> Retired <br>
+                <input type="checkbox" name="employment" value="Terminated/Laid off due to calamity"> Terminated/Laid off due to calamity <br>
+                <input type="checkbox" name="employment" value="Terminated/Laid off (local)"> Terminated/Laid off (local) <br>
+                <input type="checkbox" name="employment" value="Terminated/Laid off (abroad)"> Terminated/Laid off (abroad)
+                <input type="text" name="employment" placeholder="specify country" >
+                <br>
+                <input type="checkbox" name="employment" value="Others"> Others
+                <input type="text" name="employment" placeholder="please specify">
+            
+            </div>
+            <div class="input-group">
+                <label>If unemployed, reason:</label>
+                <input type="checkbox" name="unemployed" value="New Graduate"> New Graduate
+                <input type="checkbox" name="unemployed" value="Laid off (local)"> Laid off (local)
+                <input type="checkbox" name="unemployed" value="Laid off (abroad)"> Laid off (abroad)
+                <input type="checkbox" name="unemployed" value="Resigned"> Resigned
+                <input type="checkbox" name="unemployed" value="Retired"> Retired
+            </div>
+            <div class="input-group">
+                <label>Are you an OFW?</label>
+                <input type="radio" name="ofw" value="Yes"> Yes
+                <input type="radio" name="ofw" value="No"> No
+                <input type="text" name="ofw_country" placeholder="Specify country">
+            </div>
+
+            <div class="input-group">
+                    <label>Are you a former OFW?</label>
+                    <input type="radio" name="former ofw" value="Yes"> Yes
+                    <input type="radio" name="former ofw" value="No"> No
+                    <input type="text" name="later_deployment" placeholder="Latest country of deployment">
+                    <input type="text" name="return_philippines" placeholder="Month and year of return to Philippines">
+            </div>
+
+            <div class="input-group">
+                <label>Are you a 4Ps beneficiary?</label>
+                <input type="radio" name="4ps" value="Yes"> Yes
+                <input type="radio" name="4ps" value="No"> No
+                <input type="text" name="household_id" placeholder="Household ID (if Yes)">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>II. Job Preference</h3>
+            <div class="input-group">
+                <label>Preferred Occupation (List up to 3):</label>
+                <input type="checkbox" name="part-time" value="part-time"> Part-time
+                <input type="checkbox" name="full-time" value="full-time"> full-time
+                <input type="text" name="occupation1">
+                <input type="text" name="occupation2">
+                <input type="text" name="occupation3">
+            </div>
+            <div class="input-group">
+                <label>Preferred Work Location (Local):</label>
+                <input type="text" name="local_work1">
+                <input type="text" name="local_work2">
+                <input type="text" name="local_work3">
+            </div>
+            <div class="input-group">
+                <label>Preferred Work Location (Overseas):</label>
+                <input type="text" name="overseas_work1">
+                <input type="text" name="overseas_work2">
+                <input type="text" name="overseas_work3">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>III. Language / Dialect Proficiency</h3>
+            <label>Language/Dialect:</label>
+            <input type="checkbox" name="language" value="English"> English
+            <input type="checkbox" name="language" value="Filipino"> Filipino
+            <input type="checkbox" name="language" value="Mandarin"> Mandarin
+            <input type="checkbox" name="language" value="Others"> Others (please specify):
+            <input type="text" name="other_language" placeholder="Specify other languages">
+        </div>
+
+        <h3>IV. Educational Background</h3>
+    <div class="input-group">
+        <label>Currently in school?</label>
+        <input type="radio" name="schooling" value="Yes"> Yes
+        <input type="radio" name="schooling" value="No"> No
+    </div>
+    <div class="input-group">
+        <label>Educational Level:</label>
+        <input type="checkbox" name="level" value="Elementary"> Elementary <br>
+        <input type="checkbox" name="level" value="Secondary (Non-K12)"> Secondary (Non-K12) <br>
+        <input type="checkbox" name="level" value="Secondary (K-12)"> Secondary (K-12) <br>
+        <input type="text" name="senior_high_strand" placeholder="Senior High Strand">
+    </div>
+    <div class="input-group">
+        <label>Graduate/Post-Graduate Studies:</label>
+        <input type="text" name="graduate_studies">
+    </div>
+<!-- Technical/Vocational Training -->
+<div class="section">
+    <h3>V. Technical/Vocational and Other Training</h3>
+    <div class="input-group">
+        <label>Training/Vocational Courses:</label>
+        <input type="text" name="training1" placeholder="Course">
+        <input type="text" name="training2" placeholder="Course">
+        <input type="text" name="training3" placeholder="Course">
+    </div>
+    <div class="input-group">
+        <label>Institution:</label>
+        <input type="text" name="institution">
+    </div>
+    <div class="input-group">
+        <label>Skills Acquired:</label>
+        <input type="text" name="skills_acquired">
+    </div>
+</div>
+
+<!-- Professional License -->
+<div class="section">
+    <h3>VI. Eligibility / Professional License</h3>
+    <div class="input-group">
+        <label>Type of License:</label>
+        <input type="text" name="license_type">
+    </div>
+    <div class="input-group">
+        <label>License Number:</label>
+        <input type="text" name="license_number">
+    </div>
+    <div class="input-group">
+        <label>Issuing Agency:</label>
+        <input type="text" name="issuing_agency">
+    </div>
+</div>
+
+<!-- Work Experience -->
+<div class="section">
+    <h3>VII. Work Experience</h3>
+    <div class="input-group">
+        <label>Most Recent Employment:</label>
+        <input type="text" name="company1" placeholder="Company Name">
+        <input type="text" name="position1" placeholder="Position">
+        <input type="text" name="months1" placeholder="Number of Months">
+    </div>
+</div>
+
+<!-- Other Skills -->
+<div class="section">
+    <h3>VIII. Other Skills Acquired Without Certificate</h3>
+    <input type="checkbox" name="skills" value="Auto Mechanic"> Auto Mechanic <br>
+    <input type="checkbox" name="skills" value="Beautician"> Beautician <br>
+    <input type="checkbox" name="skills" value="Carpentry Work"> Carpentry Work <br>
+    <input type="checkbox" name="skills" value="Photography"> Photography <br>
+    <input type="text" name="other_skills" placeholder="Other skills (Specify)">
+</div>
+
+<!-- Certification & Authorization -->
+<div class="section">
+    <h3>Certification/Authorization</h3>
+    <p>This is to certify that all data/information I have provided in this form are true to the best of my knowledge.</p>
+    <label>Signature of Applicant:</label>
+    <input type="text" name="signature" placeholder="Sign here">
+    <input type="date" name="date_signature">
+</div>
+
+
+
+
+        <button class="btn-submit">Submit</button>
+    </div>
+</body>
+</html>
